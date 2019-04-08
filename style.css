@@ -1,19 +1,56 @@
+body {
+    background-color: #FFF0A4;
+    margin:0px;
+
+}
+#header {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 100%;
+    height:158px;
+}
 ul {
     display: flex;
     justify-content: space-around;
     background-color: #B74926;
-    width: 80%;
-    height: 60px;
-    padding-bottom: 40px;
+    height: 50px;
+    padding-bottom: 108px;
+    padding-left: 0px;
     margin: 0px;
+    width:100%;
 
 }
 li {
-    align-self: center;
+    align-self: flex-end;
     list-style-type: none;
     color: #FFF0A4;
-    margin: 0px;
+    font-family: superclarendon, serif;
+    font-style: normal;
+    font-weight: 300;
+ /*both the ul and li properties are effecting the top orange box and the navigation menu */
+
 }
-body {
-    background-color: #FFF0A4;
+
+#logo {
+    background-color: #8D2B1C;
+    padding:20px;
+    height: 108px;
+    padding-bottom: 30px;
+
+}
+.green-sidebar {
+
+    position: absolute;
+    right: 0px;
+    width:155.6px;
+    height:1842px;
+    background-color: #007453;
+    margin:0px;
+}
+#AboutBubble {
+    position:absolute;
+    left: 50px;
+    top:100px;
+    width:248px;
 }
