@@ -28,10 +28,16 @@ li {
     font-family: superclarendon, serif;
     font-style: normal;
     font-weight: 300;
- /*both the ul and li properties are effecting the top orange box and the navigation menu */
+    transition-property: color;
+    transition-duration: 500ms;
 
 }
-
+li:hover {
+    transition-property: color;
+    transition-duration: 500ms;
+    color:#007453;
+}
+/*both the ul and li properties are effecting the top orange box and the navigation menu */
 #logo {
     background-color: #8D2B1C;
     padding:20px;
@@ -60,12 +66,24 @@ li {
     width: 490px;
     top: 330px;
 }
+.textbubbletext {
+    font-family: superclarendon, serif;
+    font-style: normal;
+    font-weight: 300;
+    position: absolute;
+    right: 160px;
+    top: 390px;
+    width:360px;
+    color: #8D2B1C;
+
+
+}
 .headshot {
     position: absolute;
     left: 120px;
-    top: 414px;
-    width: 283px;
-    height: 403px;
-    background-color: #FBAF3B;
+    top: 400px;
+    border-radius: 30px;
+    border-color: #8D2B1C;
+    border: 420px;
 
 }
