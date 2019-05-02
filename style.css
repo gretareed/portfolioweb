@@ -8,6 +8,10 @@ body {
     justify-content: center;
 
 }
+.logocircle {
+    display:flex;
+    justify-content: center;
+}
 #indexlogo {
     height:320px;
     margin-top: 320px;
