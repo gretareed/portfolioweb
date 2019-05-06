@@ -28,14 +28,20 @@ li {
     font-family: superclarendon, serif;
     font-style: normal;
     font-weight: 300;
-    transition-property: color;
-    transition-duration: 500ms;
+
+
 
 }
-li:hover {
+a:hover {
     transition-property: color;
     transition-duration: 500ms;
     color:#007453;
+}
+a{
+    text-decoration: none;
+    color: #FFF0A4;
+    transition-property: color;
+    transition-duration: 500ms;
 }
 /*both the ul and li properties are effecting the top orange box and the navigation menu */
 #logo {
