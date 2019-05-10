@@ -68,7 +68,7 @@ a{
 }
 .textbubble {
     position: absolute;
-    right:81px;
+    left:470px;
     width: 490px;
     top: 330px;
 }
@@ -77,7 +77,7 @@ a{
     font-style: normal;
     font-weight: 300;
     position: absolute;
-    right: 160px;
+    left:520px;
     top: 390px;
     width:360px;
     color: #8D2B1C;
