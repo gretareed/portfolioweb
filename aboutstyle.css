@@ -93,8 +93,36 @@ a{
 
 
 }
+
+#hands {
+    width: 400px;
+
+}
+
+
+#selfportrait {
+    width: 400px;
+
+}
+
+#teacup {
+    width:400px;
+}
+#explosion {
+    width:400px;
+}
+#orangefrog {
+    width: 400px;
+}
+
+#portfolioimages {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 @media only screen and (max-width:700px){
     body {
         background-color: aquamarine;
     }
 }
+
