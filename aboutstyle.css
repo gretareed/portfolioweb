@@ -96,29 +96,39 @@ a{
 
 #hands {
     width: 400px;
+    margin:10px;
+    height:100%;
 
 }
 
 
 #selfportrait {
     width: 400px;
+    margin:10px;
+    height:100%;
 
 }
 
 #teacup {
     width:400px;
+    height:100%;
+    margin:10px;
 }
 #explosion {
     width:400px;
+    margin:10px;
+    height:100%;
 }
 #orangefrog {
     width: 400px;
+    margin:10px;
+    height:100%;
 }
 
 #portfolioimages {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+
 }
 @media only screen and (max-width:700px){
     body {
@@ -137,4 +147,14 @@ a{
     left:200px;
     width: 490px;
     top: 330px;
+}
+#contacttext {
+    font-family: 'Arbutus Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+    position: absolute;
+    left:245px;
+    top: 390px;
+    width:380px;
+    color: #8D2B1C;
 }
