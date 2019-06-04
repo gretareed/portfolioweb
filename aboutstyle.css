@@ -132,6 +132,12 @@ a{
     height:100%;
 }
 
+#firstawake {
+    width: 400px;
+    margin:10px;
+    height:100%;
+}
+
 #portfolioimages {
     display: flex;
     flex-wrap: wrap;
