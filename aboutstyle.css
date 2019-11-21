@@ -101,49 +101,7 @@ a{
     width:270px;
 }
 
-#hands {
-    width: 400px;
-    margin:10px;
-    height:100%;
 
-}
-
-
-#selfportrait {
-    width: 400px;
-    margin:10px;
-    height:100%;
-
-}
-
-#teacup {
-    width:400px;
-    height:100%;
-    margin:10px;
-}
-#explosion {
-    width:400px;
-    margin:10px;
-    height:100%;
-}
-#orangefrog {
-    width: 400px;
-    margin:10px;
-    height:100%;
-}
-
-#firstawake {
-    width: 400px;
-    margin:10px;
-    Height:100%;
-}
-
-#portfolioimages {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-right: 156px;
-    margin-top: 60px;
 
 
 }
@@ -181,7 +139,19 @@ a{
     color: #8D2B1C;
 }
 
+.column1 {
+    float:left;
+    width: 400px;
+    margin:60px;
+}
 
+.column2 {
+    float:left;
+    width: 400px;
+    margin-top:60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
 .Captions {
    font-family: 'Arbutus Slab', serif;
     font-style: normal;
