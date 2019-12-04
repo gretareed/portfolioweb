@@ -139,18 +139,8 @@ a{
     color: #8D2B1C;
 }
 
-.column1 {
-    float:left;
-    width: 400px;
-    margin:60px;
-}
+.portfolioimages {
 
-.column2 {
-    float:left;
-    width: 400px;
-    margin-top:60px;
-    margin-right: 60px;
-    margin-bottom: 60px;
 }
 .Captions {
    font-family: 'Arbutus Slab', serif;
