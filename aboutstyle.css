@@ -139,7 +139,14 @@ a{
     color: #8D2B1C;
 }
 
+.portfolio {
+    margin: 25px;
+}
 .portfolioimages {
+    width: 35%;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #8D2B1C;
 
 }
 .Captions {
@@ -147,6 +154,10 @@ a{
     font-style: normal;
     font-weight: 300;
     color: #FFF0A4;
-    background-color: #8D2B1C
+    background-color: #8D2B1C;
+    text-align: center;
+    width: 35%;
+    padding: 10px;
 
 }
+
