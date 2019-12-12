@@ -141,23 +141,22 @@ a{
 
 .portfolio {
     margin: 25px;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:10px;
+    background-color: #8D2B1C;
 }
 .portfolioimages {
-    width: 35%;
-    padding-right: 10px;
-    padding-left: 10px;
-    background-color: #8D2B1C;
-
+    width: 100%;
 }
 .Captions {
-   font-family: 'Arbutus Slab', serif;
+    font-family: 'Arbutus Slab', serif;
     font-style: normal;
     font-weight: 300;
     color: #FFF0A4;
-    background-color: #8D2B1C;
     text-align: center;
-    width: 35%;
-    padding: 10px;
-
+    width: 100%;
 }
 
