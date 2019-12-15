@@ -1,7 +1,6 @@
 body {
     background-color: #FFF0A4;
     margin:0px;
-
 }
 #header {
     display:flex;
@@ -141,12 +140,11 @@ a{
 
 .portfolio {
     margin: 25px;
-    width: 35%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 300px;
     padding:10px;
     background-color: #8D2B1C;
+
+
 }
 .portfolioimages {
     width: 100%;
@@ -160,3 +158,11 @@ a{
     width: 100%;
 }
 
+#imagebody {
+    height:2000px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 25px;
+}
