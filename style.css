@@ -1,11 +1,14 @@
 body {
     background-color: #FFF0A4;
     margin: 0px;
-    display: flex;
-    justify-content: center;
+
 
 }
 
+#indexbody {
+    display: flex;
+    justify-content: center;
+}
 #elements {
 
     height: 470px;
@@ -23,13 +26,13 @@ body {
     top: -400px;
 
 }
-#aboutme {
+#indexaboutme {
     height:160px;
     order: 1;
     position: relative;
     margin-top: 300px;
 }
-#portfolio {
+#indexportfolio {
     height:126px;
     order:3;
     position: relative;
@@ -37,7 +40,7 @@ body {
     margin-left: 180px;
 
 }
-#contact {
+#indexcontact {
     height:130px;
     order: 2;
     position: relative;
@@ -49,4 +52,168 @@ body {
     body {
         background-color: aquamarine;
     }
+}
+#header {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 100%;
+    height:158px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #B74926;
+    height: 50px;
+    padding-bottom: 108px;
+    padding-left: 0px;
+    margin: 0px;
+    width:100%;
+
+}
+li {
+    align-self: flex-end;
+    list-style-type: none;
+    color: #FFF0A4;
+    font-family: 'Arbutus Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+
+
+
+}
+a:hover {
+    transition-property: color;
+    transition-duration: 500ms;
+    color:#007453;
+}
+a{
+    text-decoration: none;
+    color: #FFF0A4;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+/*both the ul and li properties are effecting the top orange box and the navigation menu */
+#logo {
+    background-color: #8D2B1C;
+    padding:20px;
+    height: 108px;
+    padding-bottom: 30px;
+
+}
+.green-sidebar {
+
+    position: absolute;
+    right: 0px;
+    width:156px;
+    height:4000px;
+    background-color: #007453;
+    margin:0px;
+}
+#AboutBubble {
+    position:absolute;
+    left: 50px;
+    top:100px;
+    width:295px;
+}
+.textbubble {
+    position: absolute;
+    left:470px;
+    width: 490px;
+    top: 330px;
+}
+.textbubbletext {
+    font-family: 'Arbutus Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+    position: absolute;
+    left:520px;
+    top: 390px;
+    width:360px;
+    color: #8D2B1C;
+
+
+}
+.headshot {
+    position: absolute;
+    left: 120px;
+    top: 400px;
+    border-radius: 30px;
+    border:15px solid #8D2B1C;
+
+
+}
+
+#PortfolioBubble {
+    position:absolute;
+    left: 60px;
+    top:80px;
+    width:270px;
+}
+
+
+
+
+}
+@media only screen and (max-width:700px){
+    li {
+        font-size: 20px;
+    }
+    .green-sidebar {
+        display: none;
+    }
+
+
+}
+
+#Contactbubble {
+    position:absolute;
+    left: 50px;
+    top:80px;
+    width:255px;
+}
+#ContactTextbubble {
+    position: absolute;
+    left:200px;
+    width: 490px;
+    top: 330px;
+}
+#contacttext {
+    font-family: 'Arbutus Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+    position: absolute;
+    left:245px;
+    top: 390px;
+    width:380px;
+    color: #8D2B1C;
+}
+
+#imagebody {
+    height:4000px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    margin-top: 25px;
+    margin-right: 156px;
+}
+.portfolio {
+    margin: 25px;
+    width: 40%;
+    padding:10px;
+    background-color: #8D2B1C;
+
+
+}
+.portfolioimages {
+    width: 100%;
+}
+.Captions {
+    font-family: 'Arbutus Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #FFF0A4;
+    text-align: center;
+    width: 100%;
 }
