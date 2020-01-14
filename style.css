@@ -30,16 +30,17 @@ body {
     order: 1;
     position: relative;
     margin-top: 300px;
-    background-image: url(3x/about-me@3x.png)
+   /* background-image: url(3x/about-me@3x.png)
+*/
+}
 
-}
-.indexaboutme:hover {
+/*.indexaboutme:hover
     background-image: url(3x/indexaboutHover@3x.png)
-}
 
 .top:hover {
     opacity:0;
 }
+*/
 #indexportfolio {
     height:126px;
     order:3;
