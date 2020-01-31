@@ -25,7 +25,7 @@ body {
     top: -400px;
 
 }
-.indexaboutme {
+#indexaboutme {
     height:160px;
     order: 1;
     position: relative;
