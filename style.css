@@ -193,6 +193,7 @@ a{
 
 #imagebody {
     height:4500px;
+    max-width: 1020px;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
